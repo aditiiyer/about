@@ -33,9 +33,9 @@
       
       <!-- Menu link fragment #id should match a div id. Example: <a href="#home"> links to <div id="home"></div>  -->
       <ul class="main-menu">
-        <li><a href="#about">about</a></li>
+        <li><a href="#home">home</a></li>
         <li><a href="#research">research</a></li>
-        <li><a href="#downloads">software</a></li>
+        <li><a href="#links">links</a></li>
         <li><a href="#contact">other pursuits</a></li>
       </ul>                 
     </header>
@@ -44,30 +44,34 @@
       <div class="inner">
         <div id="content"> 
           
-          <div id="about" class="content-region hide">
-            <h2>Hi there!</h2>
-            <p> I am an Advanced Scientific Software Developer at the Department of Medical Physics, Memorial Sloan Kettering
-                Cancer Center (MSKCC), with a decade of experience in Bioinformatics, Image Analysis, and scientific application development.
+          <div id="home" class="content-region hide">
+            <h2>About</h2>
+            <p>I am an Advanced Scientific Application Developer at the Department of Medical Physics, Memorial Sloan Kettering Cancer Center (MSKCC), with 10+ years of experience in Bioinformatics, Image Analysis, and Machine Learning.
 
             <h3>Projects</h3>
             <ul style="list-style-type:disc;">
 
-            <li><h4>Software development</h4></li>
-            <li><h5>CERR</h5></li>
-            <p>The Computational Environment for Radiological Research (<a href="www.github.com/cerr/CERR.git">CERR</a>) is an open-source platform, employed worldwide
-            to prototype radiotherapy and image analysis algorithms (peer-review cited 700+ times). I've served as a key developer of CERR for 7+ years.</p>
+            <li><h4>Software Tools</h4></li>
+            <li><h5>CERR (Key contributor)</h5></li>
+            <p>The Computational Environment for Radiological Research (<a href="www.github.com/cerr/CERR.git">CERR</a>) is a free, open-source research platform, used worldwide
+            to prototype radiotherapy and image analysis algorithms (peer-review cited 700+ times). I've served as a core member of CERR's development team for 7+ years, 
+            leading the development of several key tools including for radiomics and radiotherapy outcomes analyses, building and deploying auto-segmentation models, and Python-compatibility via <a href="www.github.com/stratis-forge">STRATIS</a>.  
 
-            <li><h5>ROE</h5></li>
+            <li><h5>ROE (Lead developer)</h5></li>
+            <p>The Radiotherapy Outcomes Estimator, a plugin to CERR for patient-specific prescription selection, using published
+            NTCP and TCP models to quantify the risks and benefits of different treatment protocols.
+            </p>
 
+            <li><h4>Radiomics (Lead developer)</h4></li>
+            I represented CERR at the Image Biomarker Standardization Initiative (IBSI), which aims to develop consensus defintions and guidelines for radiomic computations. 
+            This involved adapting our (free, open-source) tools to meet the proposed standard, establishing unit tests and cross-software comparisons for ongoing compliance.
+              
 
-            <li><h4>Radiomics</h4></li>
-            CERR toolbox
-            IBSI and software compatibility
-
-            <li><h4>Image segmentation<h4></li>            
-            <p>The deep-learning auto-segmentation tools I developed have been adopted for clinical use at MSKCC. As a result, we have revised guidelines for limiting radiation-induced 
-            complications, and increased clinical efficiency, accuracy, and reproducibility.</p>
+            <li><h4>Image segmentation (Lead engineer)<h4></li>            
+            <p> The deep-learning auto-segmentation tools I developed have been adopted for clinical use at MSK. As a result, we have revised guidelines for limiting induced 
+            complications through RT for head and neck cancer treatment, and improved clinical efficiency, accuracy, and reproducibility.</p>
             </ul>  
+              
 
             </p>
           </div>
@@ -75,13 +79,31 @@
           <div id="research" class="content-region hide">
             <a href="https://scholar.google.com/citations?user=10gRs9EAAAAJ&hl=en"><h2>Google scholar</h2></a>
             <h2>Selected publications</h2>
-            <h2>Selected presentations</h2>            
+             <li>Iyer, A., Apte, A. P., ... & Jackson, A. (2023). ROE (Radiotherapy Outcomes Estimator): An Open-Source Tool for Optimizing Radiotherapy Prescriptions. Computer Methods and Programs in Biomedicine, 107833.</li>
+             <li>Iyer, A., Thor, M., ... & Apte, A. P. (2022). Prospectively-validated deep learning model for segmenting swallowing and chewing structures in CT. Physics in Medicine & Biology, 67(2), 024001.</li>
+             <li>Chen, I., Iyer, A*., ... & Jackson, A. (2023). Simulating the potential of model-based individualized prescriptions for ultracentral lung tumors. Advances in Radiation Oncology, 101285.</li>
+             <li>Apte, A. P., Iyer, A*., ... & Deasy, J. O. (2020). Library of deep-learning image segmentation and outcomes model-implementations. Physica Medica, 73, 190-196.</li>
+             <li><b>(Cover-page article)</b>Apte, A. P., Iyer, A., Crispin‐Ortuzar, M., Pandya, R., Van Dijk, L. V., Spezi, E., ... & Deasy, J. O. (2018). Extension of CERR for computational radiomics: a comprehensive MATLAB platform for reproducible radiomics research. Medical physics, 45(8), 3713-3720.</li>
+            <p></p>
+            <p>*co-first author</p>
+            
+            <h2>Selected talks</h2>  
+            <li> Iyer, A., Thor, M.,... & Apte, A. Deep Learning-Based Auto-Segmentation of Swallowing and Chewing Structures.<i>American Association of Physicists in Medicine</i>, 2020.</li>
+            <li> Iyer, A., Fontenla, S., ... & Apte, A. Machine Learning-Based Post-Processing Method for Improved Segmentation of Parotid Glands.<i>American Association of Physicists in Medicine</i>, 2018.</li>
+
+            <h2>Selected poster presentations</h2>  
+            <li>Iyer A., Yorke, E., ... &, Jackson, A. Simulating Clinical Protocol Accrual in the Radiotherapy Outcomes Estimator (ROE). <i>American Association of Physicists in Medicine</i>, 2022.</li>
+            <li>Iyer, A., LoCastro, E., ... & Apte, A. IBSI-Compatible Convolutional Image Texture Filters in CERR. <i>American Association of Physicists in Medicine</i>, 2022.</li>
+            <li>Iyer, A., LoCastro, E., ... & Apte, A. Deploying Deep Learning-Based Image Segmentation Models Via CERR. <i>American Association of Physicists in Medicine</i>, 2021.</li>
+            <li>Iyer, A., Chen, I., ... & Jackson, A.  Personalized fractionation of ultracentral lung tumors using modeled outcomes from treated patients. <i> American Association of Physicists in Medicine</i>, 2021.</li>></li>
+          
           </div>
           
-          <div id="downloads" class="content-region hide">
-            <p>
-             CERR, ROE, AI seg models
-            </p>
+          <div id="links" class="content-region hide">
+            <li> <a href="https://www.github.com/cerr/CERR.git"><h2>CERR</h2></a>
+            <li> <a href="https://github.com/cerr/CERR/wiki/Radiotherapy-Outcomes-Estimator-(ROE)"><h2>ROE</h2></a>
+            <li> <a href="https://github.com/stratis-forge/"><h2>STRATIS</h2></a>
+            <li> <h2>Auto-segmentation models</h2> <a href="https://github.com/cerr/CERR/wiki/Auto-Segmentation-models/">Request</a> for research use.
           </div>
               
          <div id="contact" class="content-region hide">
